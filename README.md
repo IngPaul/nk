@@ -1,27 +1,43 @@
 # Nk
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5.
+## Configurar Firebase
+1. Instalar Firebase Tools
+2. Ejecutar comando `firebase login` e ingresar crenciales
+3. En el archivo package.jso en la seccion de scripts adicionar a los alias lo digitos NG.
+ ![imagen](./img-readme/pac.png)
+4. Ejecutar comando `firebase init` 
+> *??*
+  + Seleccion en todas las opciones
+  ![imagen](./img-readme/1init.png)
+> *??*
+  + Seleccione el entorno de produccion de firebase
+  ![imagen](./img-readme/f1.png)
+> *??*
+  + Aceptar la configuracion por defecto para definir las reglas por firestore. `Enter`
+  ![imagen](./img-readme/f2.png)
+> *??*
+  + Aceptar la configuracion por defecto para definir los indices por firestore. `Enter`
+  ![imagen](./img-readme/f3.png)
+> *??*
+  + Aceptar el uso del TSLint en el proyecto. `Enter`
+  ![imagen](./img-readme/f5.png)
+> *??*
+  + Aceptar que se instalen las dependencias con npm. `Enter`
+  ![imagen](./img-readme/f6.png)
+> *??*
+  + Aceptar el uso de una carpeta public. `Enter`
+  ![imagen](./img-readme/f7.png)
+> *??*
+  + Aceptar la configuracion por defecto de una single page app. `Enter`
+  ![imagen](./img-readme/f9.png)
+> *??*
++ Aceptar la configuracion por defecto para definir los reglas de almacenamiento. `Enter`
+  ![imagen](./img-readme/f10.png)
 
-## Development server
+### Anadir otros entornos al proyecto
+1. Ejecutar comando `firebase use --add`
+2. Seleccionar el entorno a integrar. `Enter`
+  ![imagen](./img-readme/f11.png)
+3. Poner un alias `enter`
+![imagen](./img-readme/f12.png)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
